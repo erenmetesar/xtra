@@ -19,7 +19,7 @@
     },
     "TEMP_DOWNLOAD_DIRECTORY": {
       "description": "Where downloaded files will go.",
-      "value": "./userbot/DOWNLOADS/",
+      "value": "./xtrabot/DOWNLOADS/",
       "required": false
     },
     "API_ID": {
