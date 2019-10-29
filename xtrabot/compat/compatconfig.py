@@ -20,6 +20,9 @@ from telethon import events
 class SupportMods():
     def uniadmin(self, pattern=None, **args):
         args["pattern"] = re.compile(uni.COMMAND_HAND_LER + pattern)
+        if not "outgoing" in args:
+            if not "incoming" in args:
+               args["outgoing"] = True 
         if "allow sudo" in args:
             del args["allow_sudo"]
         if "allow_edited_updates" in args:
