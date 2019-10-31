@@ -14,6 +14,8 @@
 #    You should have received a copy of the GNU Affero General Public License
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
+import io
+
 async def answer(event, text, **args):
     call = args.get("call", "edit")
     actions = {"edit": event.edit, "reply": event.reply, "respond": event.respond}
