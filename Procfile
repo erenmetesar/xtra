@@ -1,1 +1,1 @@
-userbot: python -m xtrabot
+worker: python -m xtrabot
